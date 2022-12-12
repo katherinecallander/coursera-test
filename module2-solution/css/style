@@ -1,50 +1,50 @@
 *{
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 h1{
-		text-align: center;
-		margin: 20px;
+	text-align: center;
+	margin: 20px;
 }
 
 
 .title {
-		position: absolute;
-		top: 0;
-		right: 0;
-		width: 100px;
-		text-align: center;
-		border: 1px solid black;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100px;
+	text-align: center;
+	border: 1px solid black;
 }
 article{
 
-		padding: 25px;
+	padding: 25px;
 
 }
 
 .section {
-		background-color: brown;
-		border: 1px solid black;
-		position: relative;
-		width: 90%
-		margin-right: auto;
+	background-color: brown;
+	border: 1px solid black;
+	position: relative;
+	width: 90%
+	margin-right: auto;
 	margin-left: auto;
 			
 } 
 
 #chicken{
-		background-color: #36596e;
+	background-color: #36596e;
 }
 
 #beef{
-		background-color: #ebae1f;
-		color: white;
+	background-color: #ebae1f;
+	color: white;
 } 
 
 #sushi{
-		background-color: #e95a50;
+	background-color: #e95a50;
 }
 
 
@@ -145,7 +145,7 @@ article{
 
 
 @media(max-width: 767px){
-		.section{
-				margin-top: 30px;
+	.section{
+			margin-top: 30px;
 		}
 }
