@@ -1,38 +1,91 @@
-body {
-  padding-bottom: 30px;
+body{
+  font-size: 16px;  
+  font-family: 'Exo 2', sans-serif;
 }
-
-/** Navigation **/
-#navigation a.navbar-brand {
-  color: #fff;
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 2px solid #000 !important;
+}
+#header-nav{
+  background-color:#999999;  
+  border:2px solid #000; 
+  border-radius: 0;
+}
+.navbar-brand{
+  margin-top: 10px;
+  padding-top:10px;
+}
+.navbar-nav{
+  margin:0 -15px !important;
+}
+.navbar-brand h1{
+  color: #000;
+  font-size: 1.5em;
   font-weight: bold;
-  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  margin-left: 15px;
 }
-
-#navbar a:hover, #navbar a:active {
-  background-color: #adacac;
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;  
 }
-#navbar a {
-  color: #fff;
+#nav-list{
+  border:1px solid;
 }
-
-/** Content **/
-#content section {
-  background-color: #f5f5f5;
+#nav-list:nth-child(3){
+  border-bottom:0;
+}
+#nav-list li{
+  background:#fff;
+  border-bottom:2px solid;
+}
+#nav-list li:nth-child(3){
+  border-bottom:0;
+}
+#nav-list li a{
+  color:#000;
+  font-weight: 600;
+  line-height: 8px
+}
+.menu{
+  margin:15px; 
+}
+.main-title{
+  font-weight: bold;
+  margin-top: -3px;
+}
+.menu-content{ 
+  margin-top:40px;
+}
+.menu-title{
+  font-weight: bold;
+}
+.menu-item{
   margin-bottom: 20px;
+  background:#999999;  
+  padding: 10px;
 }
-
-/*
-Fix: Avoid display for section headers behind navigation bar when
-navigation links are clicked
-
-#chicken:before,
-#beef:before,
-#sushi:before {
-  display: block;
-  content: " ";
-  margin-top: -60px;
-  height: 60px;
-  visibility: hidden;
+.menu-item h4 {
+  font-weight: bold;
 }
-*/
+.menu-item p{
+  font-weight:600;
+  font-size: .9em;
+  padding: 5px 10px;
+}
+@media (max-width:767px){
+  .navbar-brand:focus, .navbar-brand{
+    margin-left:10px;
+  }
+  .menu{
+    width: 80%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom: 15px;
+  }
+  .menu-item p{
+    font-weight: 600;
+    font-size: 1em;
+    padding:5px 15px;
+  }
+}
