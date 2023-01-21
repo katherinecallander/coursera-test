@@ -6,17 +6,17 @@
 
 .navbar{
   border-radius: 0px;
-  background-color: rgba(0,0,0,0.8);
+  background-color: #36596e;
 }
 
 .navbar-brand{
   font-size: 35px;
-  color: white;
+  color: #36596e;
   padding-left: 25px;
 }
 
 .navbar-brand:hover{
-  color: white;
+  color: #002e3c;
 }
 
 .nav{
@@ -32,7 +32,7 @@
 }
 
 .navbar-toggle{
-  border: 2px solid white;
+  border: 2px solid black;
   margin-right: 25px;
 }
 
