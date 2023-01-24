@@ -1,46 +1,69 @@
 body{
   font-size: 16px;  
   font-family: 'Exo 2', sans-serif;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+   width: 100%;
+
+
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
   border: 2px solid #000 !important;
+  background-color: #ffffff;
+
+
 }
-#header-nav{
-  background-color:#999999;  
-  border:2px solid #000; 
-  border-radius: 0;
+.navbar{
+  border: 1px;
+
+}
+.navbar-header{  
+  border:0px solid #002e3c;
+
+
+
 }
 .navbar-brand{
-  margin-top: 10px;
-  padding-top:10px;
+  margin-top: 15px;
+  margin-left: 15px;
+  padding-top: 15px;
+  text-decoration: none;
+
+
+  
 }
 .navbar-nav{
   margin:0 -15px !important;
+
+  
 }
-.navbar-brand h1{
-  color: #000;
-  font-size: 1.5em;
+.navbar-brand{
+  color: #002e3c;
+  font-size: 2em;
   font-weight: bold;
-  margin-top: 0;
-  margin-bottom: 0;
+  margin-top: 15px;
+  margin-bottom: 15px;
   line-height: .75;
   margin-left: 15px;
-}
-.navbar-brand a:hover, .navbar-brand a:focus{
-  text-decoration: none;  
+  text-decoration: none; 
+
+
 }
 #nav-list{
   border:1px solid;
+  color: #e7e6e5;
+  scrollbar-color: #e95a50;;
 }
 #nav-list:nth-child(3){
-  border-bottom:0;
+  border-bottom:1px solid;
 }
 #nav-list li{
-  background:#fff;
-  border-bottom:2px solid;
+  background:#e7e6e5;
+  border-bottom:1px solid;
 }
 #nav-list li:nth-child(3){
-  border-bottom:0;
+  border-bottom:1px;
 }
 #nav-list li a{
   color:#000;
@@ -53,39 +76,60 @@ body{
 .main-title{
   font-weight: bold;
   margin-top: -3px;
-}
-.menu-content{ 
-  margin-top:40px;
+  margin left: 15px;
 }
 .menu-title{
   font-weight: bold;
+  margin-bottom: 10px;
 }
 .menu-item{
   margin-bottom: 20px;
-  background:#999999;  
-  padding: 10px;
+  background:#000000;  
+  padding: 15px;
 }
 .menu-item h4 {
   font-weight: bold;
 }
 .menu-item p{
   font-weight:600;
-  font-size: .9em;
-  padding: 5px 10px;
-}
-@media (max-width:767px){
-  .navbar-brand:focus, .navbar-brand{
-    margin-left:10px;
+  font-size: 1em;
+  padding: 25px;
+
   }
   .menu{
     width: 80%;
-    margin-right:auto;
-    margin-left:auto;
+    margin-right: 15px;
+    margin-left: 15px;
+
     margin-bottom: 15px;
   }
   .menu-item p{
     font-weight: 600;
     font-size: 1em;
-    padding:5px 15px;
+    padding: 10px;
+
   }
+#sushi{
+    background-color: #e7e6e5;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#beef{
+     background-color: #e7e6e5;
+    font-weight: bold;
+    text-align: center;
+}
+
+#chicken{
+    background-color: #e7e6e5;
+    font-weight: bold;
+    text-align: center;
+
+}
+.text-background{
+  background-color:#e7e6e5;
+  padding: 15px;
+}
 }
